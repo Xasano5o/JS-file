@@ -1,0 +1,3103 @@
+.box{
+    width: 100%;
+}
+* {
+    padding: 0px ;
+    margin :0px ;
+    box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+.navbarcenter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.navbar-end
+{
+display: flex;
+width: 110px;
+height: 5vh;
+align-items: center;
+border: 1px solid #D4D4D4;
+border-radius: 33px;
+}
+.one1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 32px;
+/* identical to box height, or 168% */
+
+align-items: center;
+color: #7EB693;
+}
+.nav-1 {
+    display: flex;
+    align-items: center;
+}
+
+.card1
+{
+    padding: 0px 10px ;
+}
+.one
+{
+    padding: 0px 40px;
+}
+
+
+.fa-cart-plus {
+
+height: 30px;
+width: 30px;
+color: rgb(0, 0, 0);
+margin-top: 12px ;
+margin-left: 10px;
+}
+/* menu-1 boshladik */
+
+
+.menu-1 {
+    background-image: url(./img-menu-1/IMAGE.png);
+    width: 100%;
+    margin-top: 30px;
+    height: 100vh;
+    background-color: #192420;
+    left: 10%;
+    right: 0%; 
+     top: 90px; 
+    background-repeat: repeat;
+    display: flex;flex-direction: column;  
+  
+}
+.menu-1-text1 {
+    position: absolute;
+    height: 65px;
+    width: 100%;
+left: 30px;
+right: 82.54%;
+top: 220px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 65px;
+/* identical to box height, or 180% */
+
+letter-spacing: 0.36px;
+text-transform: capitalize;
+
+color: #7EB693;
+}
+
+.menu-1text2{
+
+    position: absolute;
+    height: 84px;
+    left: 30px;
+    right: 64.06%;
+    top: 299px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 84px;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+    
+}
+
+.menu-1btn
+{   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    width: 210px;
+    height: 8vh;
+    box-sizing: border-box;
+    position: absolute;
+    left: 30px;
+    top: 700px;
+    background: #EFD372;
+    border: 1px solid #EFD372;
+    border-radius: 16px;    
+}
+.btnpicchers
+{   display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 78.54%;
+    right: 4.11%;
+    top: 29.27%;
+    bottom: 29.27%;
+    background: #335B6B;    
+    border-radius: 50%;
+}
+.fa-arrow-right{
+    color: white;
+    font-size: 3px;
+    padding-left: 10px;
+}
+
+/* menu-2  */
+
+.img-menu-2-1{
+background-image: url(./img-menu-1/mene-2-1.png);
+position: absolute;
+height: 378px;
+left: 0%;
+right: 0%;
+top: 0px;
+width: 46%;
+border-radius: 30px;
+margin-top: 980px;
+margin-left: 30px;
+}
+
+.img-menu-2-2{
+background-image: url(./img-menu-1/menu-2-2.png);    
+position: absolute;
+height: 378px;
+left: 0%;
+right: 0%;
+top: 0px;
+width: 46%;
+border-radius: 30px;
+margin-top: 980px;
+margin-left: 730px;
+}
+
+.menu-2text1{
+    position: absolute;
+    height: 65px;
+    left: 8.27%;
+    right: 72.78%;
+    top: 105px;
+    
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #FFFFFF; 
+    
+}
+
+.menu-2text2{
+ 
+position: absolute;
+height: 52px;
+left: 8.27%;
+right: 58.8%;
+top: 221px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+/* identical to box height, or 130% */
+
+letter-spacing: 0.36px;
+
+color: #FFFFFF;
+
+
+
+/* Get Garden */
+
+
+position: absolute;
+height: 52px;
+left: 8.27%;
+right: 60.6%;
+top: 169px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+/* identical to box height, or 130% */
+
+letter-spacing: 0.36px;
+
+color: #FFFFFF;
+    
+}
+.menu-2-2text1
+{
+    position: absolute;
+    height: 65px;
+    left: 8.27%;
+    right: 76.54%;
+    top: 105px;
+    
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #7EB693;
+    
+}
+.menu-2-2text2
+{
+    position: absolute;
+    height: 52px;
+    left: 8.27%;
+    right: 59.55%;
+    top: 169px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    /* identical to box height, or 130% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+    
+}
+/* menu-3 */
+
+.menu3-img-1{
+position: absolute;
+height: 642px;
+left: 0%;
+right: 51.09%;
+top: calc(50% - 642px/2);
+top: 1500px;
+width: 46%;
+padding-left: 70px;
+background: url(./img-menu-1/menu-3-img.png);
+border-radius: 0px;
+}
+.menu-3text1
+{
+    position: absolute;
+    height: 65px;
+    left: 50%;
+    right: 81.93%;
+    top: 1500px;
+    width: 49%;
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 65px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #7EB693;    
+}
+.menu-3text2{
+
+position: absolute;
+height: 59px;
+left: 50%;
+right: 30.67%;
+top: 1563px;
+width: 36%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 58px;
+/* identical to box height, or 130% */
+
+letter-spacing: 0.36px;
+text-transform: capitalize;
+
+color: #274C5B;
+}
+.menu-3text4{
+    position: absolute;
+height: 98px;
+left: 50%;
+right: 0.74%;
+top: 1690px;
+width: 44%;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 180% */
+
+letter-spacing: 0.36px;
+
+color: #525C60;
+}
+.menuimg3-1{
+    position: absolute;
+    left: 52%;
+    right: 0%;
+    top: 240%;
+    bottom: 0%;
+    width: 46px;
+    height: 45px;
+    background: url(./img-menu-1/menu-3-1.png);
+}
+.menuimg3-2{
+    position: absolute;
+    left: 52%;
+    right: 0%;
+    top: 255%;
+    bottom: 0%;
+    width: 55px;
+    height: 40px;
+    background: url(./img-menu-1/menu-3-2.png);
+    
+    background-size: auto;
+}
+.menu3-text5{
+    position: absolute;
+    width: 30%;
+    height: 35px;
+    left: 57%;
+    right: 57.39%;
+    top: 236%;
+    bottom: 100px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 35px;
+    /* identical to box height, or 140% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+.menu3-text6
+{
+    position: absolute;
+    height: 65px;
+    left: 57%;
+    right: 0.52%;
+    top: 241%;
+    width:35%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #525C60;    
+}
+.menu3-text7{
+    position: absolute;
+    height: 35px;
+    left: 57%;
+    right: 61.04%;
+    top: 252%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    /* identical to box height, or 140% */
+    width: 35%;
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+}
+
+.menu3-text8{
+    position: absolute;
+    height: 65px;
+    left: 57%;
+    right: 2.78%;
+    top: 257%;
+    width: 35%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #525C60;
+       
+}
+.menu-3btn{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 82px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    width: 190px;
+    height: 50px;
+    background: #274C5B;
+    border: 1px solid #274C5B;
+    border-radius: 16px;
+}
+.menu-3btntext1{
+    position: absolute;
+    height: 32px;
+    left: 16.58%;
+    right: 35.68%;
+    top: 3px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 32px;
+    /* identical to box height, or 168% */
+    
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+.menu3-strelka{
+  
+position: absolute;
+left: 76.88%;
+right: 4.02%;
+top: 29.27%;
+bottom: 29.27%;
+border-radius: 50%;
+background: #335B6B; 
+width: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 3px;
+
+}
+.fa-arrow-right{
+    color: white;
+    font-size: 2px;
+    padding-left: 6px;
+}
+.menu-3btn{
+    box-sizing: border-box;
+    height: 45px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    right: 0%;
+    top: 270%;
+    
+     
+}
+
+/* menu - 4 boshlandi */
+
+.menu-4-text1
+{position: absolute;
+    width: 105px;
+    height: 65px;
+    left: calc(50% - 105px/2 + 0.5px);
+    top: 290%;
+    
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    /* identical to box height, or 180% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #7EB693;
+    
+
+}
+.menu-4-text2{
+    position: absolute;
+width: 285px;
+height: 59px;
+left: calc(50% - 285px/2 - 0.5px);
+top: 296%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 58px;
+/* identical to box height, or 130% */
+
+text-align: center;
+letter-spacing: 0.36px;
+text-transform: capitalize;
+
+color: #274C5B;
+}
+
+.menu4-card1
+{
+    position: absolute;
+    height: 590px;
+    left: 2%;
+    right: 0%;
+    top: 0px;
+    background: #F9F8F8;
+    border-radius: 30px;
+   Width: 447px;
+  
+    Top: 310%;
+
+    
+}
+.menu4-card1-btn{
+    width: 118px;
+    position: absolute;
+    height: 37px;
+    left: 6%;
+    right: 0%;
+    top: 20px;
+    background: #274C5B;
+    border-radius: 8px;    
+}
+.menu-4-card-1text1{
+    
+    position: absolute;
+    height: 27px;
+    left: 40px;
+    right: 16.95%;
+    top: 25px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #FFFFFF;  
+}
+.card-img1
+{
+ 
+position: absolute;
+height: 378px;
+left: 6.71%;
+right: 6.71%;
+top: calc(50% - 378px/2 - 39px);
+
+background: url(./img-menu-1/IMAGE\ \(1\).png);
+border-radius: 0px;   
+Width :387px ;
+Height :378px;
+Top :67px ;
+Left :30px;
+
+}
+.card-chziq1{
+    position: absolute;
+    height: 1px;
+    left: 5%;
+    right: 5%;
+    top: 530px;
+    
+    background: #D4D4D4;     
+}
+.Calabrese{
+    position: absolute;
+    height: 36px;
+    left: 5%;
+    right: 49.87%;
+    top: 480px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+
+
+
+
+.yulduzlar
+{
+background-image: url(./img-menu-1/yulduzcha.png);    
+position: absolute;
+left: 55%;
+right: 0%;
+top: 90%;
+bottom: 0%;
+width: 200px;
+height: 5vh;
+font-size: 10px;
+}
+.cardusd-1{
+    position: absolute;
+    height: 33px;
+    left: 5%;
+    right: 52.69%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 191% */
+    
+    letter-spacing: 0.36px;
+    text-decoration-line: line-through;
+    
+    color: #B8B8B8;   
+}
+.cardusd-2{
+    position: absolute;
+    height: 33px;
+    left: 32.82%;
+    right: -0.03%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+/*  card2 --------------- */
+
+.menu4-card2
+{
+    position: absolute;
+    height: 590px;
+    left: 34%;
+    right: 0%;
+    top: 0px;
+    background: #F9F8F8;
+    border-radius: 30px;
+   Width: 447px;
+  
+    Top: 310%;
+
+    
+}
+.menu4-card2-btn{
+    width: 118px;
+    position: absolute;
+    height: 37px;
+    left: 6%;
+    right: 0%;
+    top: 20px;
+    background: #274C5B;
+    border-radius: 8px;    
+}
+.menu-4-card-2text1{
+    
+    position: absolute;
+    height: 27px;
+    left: 40px;
+    right: 16.95%;
+    top: 25px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #FFFFFF;  
+}
+.card-img2
+{
+ 
+position: absolute;
+height: 378px;
+left: 6.71%;
+right: 6.71%;
+top: calc(50% - 378px/2 - 39px);
+
+background: url(./img-menu-1/IMAGE\ \(2\).png);
+border-radius: 0px;   
+Width :387px ;
+Height :378px;
+Top :67px ;
+Left :30px;
+
+}
+.card2-chziq2{
+    position: absolute;
+    height: 1px;
+    left: 5%;
+    right: 5%;
+    top: 530px;
+    
+    background: #D4D4D4;     
+}
+.Fresh{
+    position: absolute;
+    height: 36px;
+    left: 5%;
+    right: 49.87%;
+    top: 480px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+
+
+
+
+.yulduzlar2
+{
+background-image: url(./img-menu-1/yulduzcha.png);    
+position: absolute;
+left: 55%;
+right: 0%;
+top: 90%;
+bottom: 0%;
+width: 200px;
+height: 5vh;
+font-size: 10px;
+}
+.card2usd-1{
+    position: absolute;
+    height: 33px;
+    left: 5%;
+    right: 52.69%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 191% */
+    
+    letter-spacing: 0.36px;
+    text-decoration-line: line-through;
+    
+    color: #B8B8B8;   
+}
+.card2usd-2{
+    position: absolute;
+    height: 33px;
+    left: 32.82%;
+    right: -0.03%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+/* cadr3 */
+
+
+.menu4-card3
+{
+    position: absolute;
+    height: 590px;
+    left: 66%;
+    right: 0%;
+    top: 0px;
+    background: #F9F8F8;
+    border-radius: 30px;
+   Width: 447px;
+  
+    Top: 310%;
+
+    
+}
+.menu4-card3-btn{
+    width: 118px;
+    position: absolute;
+    height: 37px;
+    left: 6%;
+    right: 0%;
+    top: 20px;
+    background: #274C5B;
+    border-radius: 8px;    
+}
+.menu-4-card-3text1{
+    
+    position: absolute;
+    height: 27px;
+    left: 40px;
+    right: 16.95%;
+    top: 25px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #FFFFFF;  
+}
+.card-img3
+{
+ 
+position: absolute;
+height: 378px;
+left: 6.71%;
+right: 6.71%;
+top: calc(50% - 378px/2 - 39px);
+
+background: url(./img-menu-1/IMAGE\ \(3\).png);
+border-radius: 0px;   
+Width :387px ;
+Height :378px;
+Top :67px ;
+Left :30px;
+
+}
+.card3-chziq2{
+    position: absolute;
+    height: 1px;
+    left: 5%;
+    right: 5%;
+    top: 530px;
+    
+    background: #D4D4D4;     
+}
+.Fresh{
+    position: absolute;
+    height: 36px;
+    left: 5%;
+    right: 49.87%;
+    top: 480px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+
+
+
+
+.yulduzlar3
+{
+background-image: url(./img-menu-1/yulduzcha.png);    
+position: absolute;
+left: 55%;
+right: 0%;
+top: 90%;
+bottom: 0%;
+width: 200px;
+height: 5vh;
+font-size: 10px;
+}
+.card3usd-1{
+    position: absolute;
+    height: 33px;
+    left: 5%;
+    right: 52.69%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 191% */
+    
+    letter-spacing: 0.36px;
+    text-decoration-line: line-through;
+    
+    color: #B8B8B8;   
+}
+.card3usd-2{
+    position: absolute;
+    height: 33px;
+    left: 32.82%;
+    right: -0.03%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+/* card 4  */
+
+
+.menu4-card4
+{
+    position: absolute;
+    height: 590px;
+    left: 2%;
+    right: 0%;
+    top: 0px;
+    background: #F9F8F8;
+    border-radius: 30px;
+   Width: 447px;
+  
+    Top: 389%;
+
+    
+}
+.menu4-card4-btn{
+    width: 118px;
+    position: absolute;
+    height: 37px;
+    left: 6%;
+    right: 0%;
+    top: 20px;
+    background: #274C5B;
+    border-radius: 8px;    
+}
+.menu-4-card-4text1{
+    
+    position: absolute;
+    height: 27px;
+    left: 40px;
+    right: 16.95%;
+    top: 25px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #FFFFFF;  
+}
+.card-img4
+{
+ 
+position: absolute;
+height: 378px;
+left: 6.71%;
+right: 6.71%;
+top: calc(50% - 378px/2 - 39px);
+
+background: url(./img-menu-1/IMAGE\ \(4\).png);
+border-radius: 0px;   
+Width :387px ;
+Height :378px;
+Top :67px ;
+Left :30px;
+
+}
+.card4-chziq2{
+    position: absolute;
+    height: 1px;
+    left: 5%;
+    right: 5%;
+    top: 530px;
+    
+    background: #D4D4D4;     
+}
+.Fresh{
+    position: absolute;
+    height: 36px;
+    left: 5%;
+    right: 49.87%;
+    top: 480px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+
+
+
+
+.yulduzlar4
+{
+background-image: url(./img-menu-1/yulduzcha.png);    
+position: absolute;
+left: 55%;
+right: 0%;
+top: 90%;
+bottom: 0%;
+width: 200px;
+height: 5vh;
+font-size: 10px;
+}
+.card4usd-1{
+    position: absolute;
+    height: 33px;
+    left: 5%;
+    right: 52.69%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 191% */
+    
+    letter-spacing: 0.36px;
+    text-decoration-line: line-through;
+    
+    color: #B8B8B8;   
+}
+.card4usd-2{
+    position: absolute;
+    height: 33px;
+    left: 32.82%;
+    right: -0.03%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+/* card 5 */
+
+.menu4-card5
+{
+    position: absolute;
+    height: 590px;
+    left: 34%;
+    right: 0%;
+    top: 0px;
+    background: #F9F8F8;
+    border-radius: 30px;
+   Width: 447px;
+  
+    Top: 389%;
+
+    
+}
+.menu4-card5-btn{
+    width: 118px;
+    position: absolute;
+    height: 37px;
+    left: 6%;
+    right: 0%;
+    top: 20px;
+    background: #274C5B;
+    border-radius: 8px;    
+}
+.menu-4-card-5text1{
+    
+    position: absolute;
+    height: 27px;
+    left: 40px;
+    right: 16.95%;
+    top: 25px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #FFFFFF;  
+}
+.card-img5
+{
+ 
+position: absolute;
+height: 378px;
+left: 6.71%;
+right: 6.71%;
+top: calc(50% - 378px/2 - 39px);
+
+background: url(./img-menu-1/IMAGE\ \(5\).png);
+border-radius: 0px;   
+Width :387px ;
+Height :378px;
+Top :67px ;
+Left :30px;
+
+}
+.card5-chziq2{
+    position: absolute;
+    height: 1px;
+    left: 5%;
+    right: 5%;
+    top: 530px;
+    
+    background: #D4D4D4;     
+}
+.Fresh{
+    position: absolute;
+    height: 36px;
+    left: 5%;
+    right: 49.87%;
+    top: 480px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+
+
+
+
+.yulduzlar5
+{
+background-image: url(./img-menu-1/yulduzcha.png);    
+position: absolute;
+left: 55%;
+right: 0%;
+top: 90%;
+bottom: 0%;
+width: 200px;
+height: 5vh;
+font-size: 10px;
+}
+.card5usd-1{
+    position: absolute;
+    height: 33px;
+    left: 5%;
+    right: 52.69%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 191% */
+    
+    letter-spacing: 0.36px;
+    text-decoration-line: line-through;
+    
+    color: #B8B8B8;   
+}
+.card5usd-2{
+    position: absolute;
+    height: 33px;
+    left: 32.82%;
+    right: -0.03%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+/* card 6 */
+
+.menu4-card6
+{
+    position: absolute;
+    height: 590px;
+    left: 66%;
+    right: 0%;
+    top: 0px;
+    background: #F9F8F8;
+    border-radius: 30px;
+   Width: 447px;
+  
+    Top: 389%;
+
+    
+}
+.menu4-card6-btn{
+    width: 118px;
+    position: absolute;
+    height: 37px;
+    left: 6%;
+    right: 0%;
+    top: 20px;
+    background: #274C5B;
+    border-radius: 8px;    
+}
+.menu-4-card-6text1{
+    
+    position: absolute;
+    height: 27px;
+    left: 40px;
+    right: 16.95%;
+    top: 25px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #FFFFFF;  
+}
+.card-img6
+{
+ 
+position: absolute;
+height: 378px;
+left: 6.71%;
+right: 6.71%;
+top: calc(50% - 378px/2 - 39px);
+
+background: url(./img-menu-1/IMAGE\ \(6\).png);
+border-radius: 0px;   
+Width :387px ;
+Height :378px;
+Top :67px ;
+Left :30px;
+
+}
+.card6-chziq2{
+    position: absolute;
+    height: 1px;
+    left: 5%;
+    right: 5%;
+    top: 530px;
+    
+    background: #D4D4D4;     
+}
+.Fresh{
+    position: absolute;
+    height: 36px;
+    left: 5%;
+    right: 49.87%;
+    top: 480px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+
+
+
+
+.yulduzlar6
+{
+background-image: url(./img-menu-1/yulduzcha.png);    
+position: absolute;
+left: 55%;
+right: 0%;
+top: 90%;
+bottom: 0%;
+width: 200px;
+height: 5vh;
+font-size: 10px;
+}
+.card6usd-1{
+    position: absolute;
+    height: 33px;
+    left: 5%;
+    right: 52.69%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 191% */
+    
+    letter-spacing: 0.36px;
+    text-decoration-line: line-through;
+    
+    color: #B8B8B8;   
+}
+.card6usd-2{
+    position: absolute;
+    height: 33px;
+    left: 32.82%;
+    right: -0.03%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+/* menu 5 boshlandi */
+
+.menuimg5-1{
+background-image: url(./img-menu-1/IMAGE\ \(7\).png);
+position: absolute;
+height: 1248px;
+left: 0%;
+right: 0%;
+top: 480%;
+
+background: url(./img-menu-1/IMAGE\ \(7\).png);
+border-radius: 0px;
+}
+.menu5-text1{
+    position: absolute;
+    width: 149px;
+    height: 65px;
+    left: calc(50% - 149px/2 + 0.5px);
+    top: -0.09px;
+    
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    /* identical to box height, or 180% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #7EB693;    
+}
+.menu5-text2
+{position: absolute;
+    width: 576px;
+    height: 59px;
+    left: calc(50% - 576px/2);
+    top: 62.91px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    /* identical to box height, or 130% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #274C5B;
+
+}
+.menu5-img-2{
+    position: absolute;
+width: 115px;
+height: 115px;
+left: calc(50% - 115px/2 + 0.5px);
+top: calc(200px);
+
+background: url(.jpg);
+}
+.yulduzlar7
+{
+    background-image: url(./img-menu-1/yulduzcha.png);    
+    position: absolute;
+    left: 32%;
+    right: 0%;
+    top: 50%;
+    bottom: 0%;
+    width: 200px;
+    height: 5vh;
+    font-size: 10px;
+
+left: calc(43% );
+top: calc(26%);
+}
+.menu5-text3{
+    position: absolute;
+    width: 942px;
+    height: 33px;
+    left: calc(50% - 942px/2);
+    top: 33%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    
+    color: #525C60;
+    
+}
+
+.menu5-text4{
+    position: absolute;
+    width: 574px;
+    height: 33px;
+    left: calc(50% - 574px/2);
+    top: 36%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    
+    color: #525C60;
+}
+
+.menu5-text5{
+
+    position: absolute;
+    width: 235px;
+    height: 34px;
+    left: calc(43%);
+    top: 41%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    /* identical to box height, or 130% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+}
+
+.menu5-text6{
+
+    position: absolute;
+    width: 73px;
+    height: 27px;
+    left: calc(50% - 73px/2 + 0.5px);
+    top: 45%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    /* identical to box height, or 193% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    
+    color: #525C60;
+}
+
+.menu5-chiziq1{
+    position: absolute;
+    height: 2px;
+    left: 16.46%;
+    right: 16.46%;
+    top: 58%;
+    
+    background: #E0E0E0;
+    border-radius: 0px;   
+}
+
+/* border radius  */
+.menu5-rdius1{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: calc(15%);
+    top: calc(590%);
+    
+    border: 5px solid #7EB693;
+    border-radius: 200px;    
+}
+.menu5rad-text1{
+    position: absolute;
+    width: 105px;
+    height: 55px;
+    left: calc(50% - 105px/2 + 0.51px);
+    top: 30%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    /* identical to box height, or 130% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+    
+}
+
+.menu5read-text2{
+ 
+position: absolute;
+width: 73px;
+height: 33px;
+left: calc(50% - 73px/2 + 0.51px);
+top: 49%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+/* identical to box height, or 180% */
+
+text-align: center;
+letter-spacing: 0.36px;
+
+color: #274C5B;   
+}
+
+
+/* 2 border radius  */
+
+.menu5-rdius2{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: calc(33%);
+    top: calc(590%);
+    
+    border: 5px solid #7EB693;
+    border-radius: 200px;    
+}
+.menu5rad-text2-1{
+    position: absolute;
+    width: 105px;
+    height: 55px;
+    left: calc(50% - 105px/2 + 0.51px);
+    top: 30%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    /* identical to box height, or 130% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+    
+}
+
+
+.menu5read-tex2-2{
+ 
+position: absolute;
+width: 200px;
+height: 33px;
+left: calc(7%);
+top: 49%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 180% */
+
+text-align: center;
+letter-spacing: 0.36px;
+
+color: #274C5B;   
+}
+/* radius 3  */
+.menu5-rdius3{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: calc(51%);
+    top: calc(590%);
+    
+    border: 5px solid #7EB693;
+    border-radius: 200px;    
+}
+.menu5rad-text3-1{
+    position: absolute;
+    width: 105px;
+    height: 55px;
+    left: calc(50% - 105px/2 + 0.51px);
+    top: 30%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    /* identical to box height, or 130% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+    
+}
+
+.menu5read-text3-2{
+ 
+position: absolute;
+width: 200px;
+height: 33px;
+left: calc(7%);
+top: 49%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 180% */
+
+text-align: center;
+letter-spacing: 0.36px;
+
+color: #274C5B;   
+}
+
+/* radius 4 */
+.menu5-rdius4{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: calc(69%);
+    top: calc(590%);
+    
+    border: 5px solid #7EB693;
+    border-radius: 200px;    
+}
+.menu5rad-text4-1{
+    position: absolute;
+    width: 105px;
+    height: 55px;
+    left: calc(50% - 105px/2 + 0.51px);
+    top: 30%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    /* identical to box height, or 130% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+    
+}
+
+.menu5read-text4-2{
+ 
+position: absolute;
+width: 200px;
+height: 33px;
+left: calc(7%);
+top: 49%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 180% */
+
+text-align: center;
+letter-spacing: 0.36px;
+
+color: #274C5B;   
+}
+/* menu 6 boshlandi */
+
+.menu-6-menu1{
+    position: absolute;
+    height: 1060px;
+    left: 0%;
+    right: 0%;
+    top: 0645%;
+    
+    background: #274C5B;
+    border-radius: 0px;    
+}
+
+.menu6-text-1{
+
+    position: absolute;
+    height: 65px;
+    left: 5%;
+    right: 69.79%;
+    top: 13%;
+    
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #7EB693;    
+}
+.menu6-text2{
+    position: absolute;
+    height: 59px;
+    left: 5%;
+    right: 23.61%;
+    top: 18%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    /* identical to box height, or 130% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;    
+}
+
+.menu-6btn1{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 76px;
+    left: 070%;
+    right: 0%;
+    top: 18%;
+    
+    background: #EFD372;
+    border: 1px solid #EFD372;
+    width: 260px;
+Height: 82px ;
+border-radius:16px;
+
+}
+
+.menu6btn-text1{
+    position: absolute;
+    height: 32px;
+    left: 12.36%;
+    right: 26.59%;
+    top: 25px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #274C5B;
+    
+}
+.menu6btn-img{
+    position: absolute;
+    left: 80.9%;
+    right: 4.12%;
+    top: 30.49%;
+    bottom: 31.71%;
+    border-radius: 50%;
+    
+    background: #335B6B;   
+}
+.menu6-strelka{
+    position: absolute;
+    left: 85.39%;
+    right: 8.99%;
+    top: 42.68%;
+    bottom: 46.34%;
+    
+    border: 1px solid #FFFFFF    
+}
+.menu6icon{
+padding-left: 13px;
+padding-top: 8px;    
+}
+
+/* menu 6 cardlari */
+
+/* card-1 */
+
+.menu6card1
+{
+    position: absolute;
+    height: 590px;
+    left: 1%;
+    right: 0%;
+    top: 0px;
+    background: #F9F8F8;
+    border-radius: 30px;
+   Width: 447px;
+  
+    Top: 690%;
+
+    
+}
+.menu6-card1btn{
+    width: 118px;
+    position: absolute;
+    height: 37px;
+    left: 6%;
+    right: 0%;
+    top: 20px;
+    background: #274C5B;
+    border-radius: 8px;    
+}
+.menu6-card-1text1{
+    
+    position: absolute;
+    height: 27px;
+    left: 40px;
+    right: 16.95%;
+    top: 25px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #FFFFFF;  
+}
+.cardmenu-6img1
+{
+ 
+position: absolute;
+height: 378px;
+left: 6.71%;
+right: 6.71%;
+
+
+background: url(./img-menu-1/IMAGE\ \(4\).png);
+border-radius: 0px;   
+Width :387px ;
+Height :378px;
+Top :15%     ;
+Left :30px;
+
+}
+.menu6card-chziq1{
+    position: absolute;
+    height: 1px;
+    left: 5%;
+    right: 5%;
+    top: 530px;
+    
+    background: #D4D4D4;     
+}
+.menu6Calabrese{
+    position: absolute;
+    height: 36px;
+    left: 5%;
+    right: 49.87%;
+    top: 480px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+
+
+
+
+.menu6yulduzlar1
+{
+background-image: url(./img-menu-1/yulduzcha.png);    
+position: absolute;
+left: 55%;
+right: 0%;
+top: 90%;
+bottom: 0%;
+width: 200px;
+height: 5vh;
+font-size: 10px;
+}
+.menu6cardusd-1{
+    position: absolute;
+    height: 33px;
+    left: 5%;
+    right: 52.69%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 191% */
+    
+    letter-spacing: 0.36px;
+    text-decoration-line: line-through;
+    
+    color: #B8B8B8;   
+}
+.menu6cardusd-2{
+    position: absolute;
+    height: 33px;
+    left: 32.82%;
+    right: -0.03%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+
+/* card-2 */
+
+.menu6card2
+{
+    position: absolute;
+    height: 590px;
+    left: 34%;
+    right: 0%;
+    top: 0px;
+    background: #F9F8F8;
+    border-radius: 30px;
+   Width: 447px;
+  
+    Top: 690%;
+
+    
+}
+.menu6-card2btn{
+    width: 118px;
+    position: absolute;
+    height: 37px;
+    left: 6%;
+    right: 0%;
+    top: 20px;
+    background: #274C5B;
+    border-radius: 8px;    
+}
+.menu6-card-2text1{
+    
+    position: absolute;
+    height: 27px;
+    left: 40px;
+    right: 16.95%;
+    top: 25px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #FFFFFF;  
+}
+.cardmenu-6img2
+{
+ 
+position: absolute;
+height: 378px;
+left: 6.71%;
+right: 6.71%;
+
+
+background: url(./img-menu-1/IMAGE\ \(5\).png);
+border-radius: 0px;   
+Width :387px ;
+Height :378px;
+Top :15%     ;
+Left :30px;
+
+}
+.menu6card-chziq2{
+    position: absolute;
+    height: 1px;
+    left: 5%;
+    right: 5%;
+    top: 530px;
+    
+    background: #D4D4D4;     
+}
+.menu6Organic{
+    position: absolute;
+    height: 36px;
+    left: 5%;
+    right: 49.87%;
+    top: 480px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+
+
+
+
+.menu6yulduzlar2
+{
+background-image: url(./img-menu-1/yulduzcha.png);    
+position: absolute;
+left: 53%;
+right: 0%;
+top: 90%;
+bottom: 0%;
+width: 200px;
+height: 6vh;
+font-size: 10px;
+}
+.menu6cardusd2-1{
+    position: absolute;
+    height: 33px;
+    left: 5%;
+    right: 52.69%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 191% */
+    
+    letter-spacing: 0.36px;
+    text-decoration-line: line-through;
+    
+    color: #B8B8B8;   
+}
+.menu6cardusd2-2{
+    position: absolute;
+    height: 33px;
+    left: 30.82%;
+    right: -0.03%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+/* card-2 */
+
+.menu6card3
+{
+    position: absolute;
+    height: 590px;
+    left: 67%;
+    right: 0%;
+    top: 0px;
+    background: #F9F8F8;
+    border-radius: 30px;
+   Width: 447px;
+  
+    Top: 690%;
+
+    
+}
+.menu6-card3btn{
+    width: 118px;
+    position: absolute;
+    height: 37px;
+    left: 6%;
+    right: 0%;
+    top: 20px;
+    background: #274C5B;
+    border-radius: 8px;    
+}
+.menu6-card-3text1{
+    
+    position: absolute;
+    height: 27px;
+    left: 40px;
+    right: 16.95%;
+    top: 25px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #FFFFFF;  
+}
+.cardmenu-6img3
+{
+ 
+position: absolute;
+height: 378px;
+left: 6.71%;
+right: 6.71%;
+
+
+background: url(./img-menu-1/IMAGE\ \(6\).png);
+border-radius: 0px;   
+Width :387px ;
+Height :378px;
+Top :15%     ;
+Left :30px;
+
+}
+.menu6card-chziq3{
+    position: absolute;
+    height: 1px;
+    left: 5%;
+    right: 5%;
+    top: 530px;
+    
+    background: #D4D4D4;     
+}
+.menu6Organic{
+    position: absolute;
+    height: 36px;
+    left: 5%;
+    right: 49.87%;
+    top: 480px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+
+
+
+
+.menu6yulduzlar3
+{
+background-image: url(./img-menu-1/yulduzcha.png);    
+position: absolute;
+left: 53%;
+right: 0%;
+top: 90%;
+bottom: 0%;
+width: 200px;
+height: 6vh;
+font-size: 10px;
+}
+.menu6cardusd3-1{
+    position: absolute;
+    height: 33px;
+    left: 5%;
+    right: 52.69%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 191% */
+    
+    letter-spacing: 0.36px;
+    text-decoration-line: line-through;
+    
+    color: #B8B8B8;   
+}
+.menu6cardusd3-2{
+    position: absolute;
+    height: 33px;
+    left: 30.82%;
+    right: -0.03%;
+    top: calc(93%);
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+.menu6-2img{
+    position: absolute;
+    height: 704px;
+    left: 0%;
+    right: 50%;
+    top: calc(784%);
+    
+    background: url(./img-menu-1/menu6.png);
+    border-radius: 0px;   
+}
+
+.menu6-3{
+    position: absolute;
+    height: 623px;
+    left: 47%;
+    right: 0%;
+    top: 790%;
+    
+    background: #FFFFFF;
+    border-radius: 30px 0px 0px 30px;
+}
+/*  */
+.menu6-text1{
+    position: absolute;
+    height: 65px;
+    left: 3%;
+    right: 72.9%;
+    top: 15.89px;
+    width: 200px;
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    /* identical to box height, or 180% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #7EB693;
+    
+}
+
+.menu6-text2{
+    position: absolute;
+    height: 59px;
+    left: 3%;
+    right: 51.45%;
+    top: 65.11px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #274C5B;   
+}
+
+.menu6-text3{
+    position: absolute;
+    height: 59px;
+    left: 3%;
+    right: 52.1%;
+    top: 130.11px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #274C5B;   
+}
+.menu6-text4{
+    position: absolute;
+    height: 33px;
+    left: 3%;
+    right: 61.61%;
+    top: 33%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    /* identical to box height, or 140% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #274C5B;   
+}
+.menu6-text5{
+    position: absolute;
+    height: 65px;
+    left: 3%;
+    right: 3.06%;
+    top: 38%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #525C60;   
+}
+.menu6-text6{
+    position: absolute;
+    height: 33px;
+    left: 3%;
+    right: 59.68%;
+    top: 49%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    /* identical to box height, or 140% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #274C5B;   
+}
+.menu6-text7{
+    position: absolute;
+    height: 65px;
+    left: 3%;
+    right: 2.26%;
+    top: 55%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #525C60;   
+}
+.menu6-text8{
+    position: absolute;
+    height: 33px;
+    left: 3%;
+    right: 64.84%;
+    top: 67%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    /* identical to box height, or 140% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #274C5B;
+    
+}
+.menu6-text9{
+    position: absolute;
+    height: 65px;
+    left: 3%;
+    right: 0.32%;
+    top: 73%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #525C60;    
+}
+/* menu- 7 boshlandi  */
+
+
+.menu7-1
+{position: absolute;
+   
+    width: 250px;
+    left: 1%;
+    right: 0%;
+    top: 890%;
+    
+    background: url(./img-menu-1/menu7-1.png);
+    border-radius: 0px;
+    Width :460px ;
+    Height:580px ;
+}
+
+.menu7-2{
+    position: absolute;
+    height: 580px;
+    left: 34%;
+    right: 0%;
+    top: 890%;
+    
+    background: url(./img-menu-1/menu7-2.png);
+    border-radius: 0px;   
+    Width :460px ;
+    Height:580px ;
+}
+.menu7-3{
+    position: absolute;
+    height: 580px;
+    left: 67%;
+    right: 0%;
+    top: 890%;
+    
+    background: url(./img-menu-1/menu7-3.png);
+    border-radius: 0px;   
+    Width :460px ;
+    Height:580px ;
+}
+
+.menu7-btn1{
+    position: absolute;
+    height: 95px;
+    left: 14%;
+    right: 0%;
+    top: 50%;
+    
+    background: #FFFFFF;
+    border-radius: 20px; 
+    
+    Width :281px ;
+Height: 95px ;
+Radius : 20px;
+}
+
+.menu7-text1{
+    position: absolute;
+    width: 123px;
+    height: 35px;
+    left: calc(30%);
+    top: 54%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    /* identical to box height, or 140% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+
+}
+
+/* menu 7 -2 */
+
+
+.menu7-btn2{
+    position: absolute;
+    height: 95px;
+    left: 18%;
+    right: 0%;
+    top: 50%;
+    
+    background: #FFFFFF;
+    border-radius: 20px; 
+    
+    Width :281px ;
+Height: 95px ;
+Radius : 20px;
+}
+
+.menu7-text2{
+    position: absolute;
+    width: 170px;
+    height: 35px;
+    left: calc(28%);
+    top: 54%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    /* identical to box height, or 140% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+
+}
+
+/* menu 7-3 */
+
+.menu7-btn3{
+    position: absolute;
+    height: 95px;
+    left: 23%;
+    right: 0%;
+    top: 50%;
+    
+    background: #FFFFFF;
+    border-radius: 20px; 
+    
+    Width :281px ;
+Height: 95px ;
+Radius : 20px;
+}
+
+.menu7-text3{
+    position: absolute;
+    width: 170px;
+    height: 35px;
+    left: calc(30%);
+    top: 54%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    /* identical to box height, or 140% */
+    
+    text-align: center;
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+
+}
+
+/* menu 8 boshlandi  */
+.menu8-text1{
+    position: absolute;
+    height: 65px;
+    left: 3%;
+    right: 90.03%;
+    top: 980%;
+    
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 65px;
+    /* identical to box height, or 185% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #7EB693;    
+}
+
+.menu8-text2{
+    position: absolute;
+    height: 59px;
+    left: 3%;
+    right: -61.44%;
+    top: 988%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 58px;
+    /* identical to box height, or 130% */
+    
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    
+    color: #274C5B;   
+}
+.menu8-btn1{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 82px;
+    left: 70%;
+    right: 0%;
+    top: 985%;
+    
+    background: #FFFFFF;
+    border: 1px solid #274C5B;
+    border-radius: 16px;    
+
+   
+Width:210px;
+Height:82px;
+Radius:16px;
+}
+
+.menu8-text3{
+    position: absolute;
+    height: 32px;
+    left: 73%;
+    right: 33.81%;
+    top: 988%;
+    width: 130px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    
+    color: #274C5B;
+
+}
+
+.menu8-picher1{
+    position: absolute;
+    left: 55%;
+    right: 4.76%;
+ 
+    bottom: 0px;
+    
+    background: #335B6B;   
+    Width:26px;
+    Height:23px;
+    Top:989%;
+    Left:81%;
+    border-radius: 50%;
+}
+.menu8-1img{
+    position: absolute;
+    height: 515px;
+    left: 3%;
+    right: 0%;
+    top: calc(50% - 515px/2 + 0.12px);
+    
+    background: url(./img-menu-1/IMAGE\ \(13\).png);
+    border-radius: 30px;    
+    Width:670px;
+    Height:515px;
+    Top:1005%;
+    Radius:30px;
+  
+
+}
+.menu8-mini1{
+    position: absolute;
+    height: 337px;
+    left: 4%;
+    right: 0%;
+    top: 42%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.14);
+    border-radius: 30px;   
+
+    Width: 610px;
+    Height:337px;
+    Radius: 30px;
+}
+.menu8-miniimg1{
+    position: absolute;
+    left: 10%;
+    right: 0%;
+    top: 18%;
+    bottom: 0%;
+    
+    
+    Width:18px;
+    Height:20px;
+}
+
+.menu8-minitext1{
+    position: absolute;
+    height: 24px;
+    left: 14.49%;
+    right: 70.98%;
+    top: calc(18%);
+    width: 200px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    /* identical to box height, or 138% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+.menu8-minitext2{
+    position: absolute;
+    height: 35px;
+    left: 10%;
+    right: -0.39%;
+    top: 32%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 35px;
+    /* identical to box height, or 140% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+.menu8-minitext3{
+    position: absolute;
+    height: 65px;
+    left: 10%;
+    right: 13.33%;
+    top: 55%;
+    width: 70%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #525C60;
+       
+}
+.menu8-endbtn1{
+    position: absolute;
+    height: 28px;
+    left: 10%;
+    right: 80.59%;
+    top: calc(82%);
+    width: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+    Size:20px;
+    Line-height:28px;
+}
+
+.menu8-picer1{
+    position: absolute;
+    left: 50%;
+    right: 0%;
+    top: 15%;
+    bottom: 0%;
+    background: #335B6B;    
+    Width:25px;
+Height: 25px;
+border-radius: 50%;
+}
+
+/* ------ */
+
+.menu8-2img{
+    position: absolute;
+    height: 515px;
+    left: 51%;
+    right: 0%;
+    top: calc(50% - 515px/2 + 0.12px);
+    
+    background: url(./img-menu-1/IMAGE\ \(14\).png);
+    border-radius: 30px;    
+    Width:670px;
+    Height:515px;
+    Top:1005%;
+    Radius:30px;
+  
+
+}
+.menu8-mini2{
+    position: absolute;
+    height: 337px;
+    left: 4%;
+    right: 0%;
+    top: 42%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.14);
+    border-radius: 30px;   
+
+    Width: 610px;
+    Height:337px;
+    Radius: 30px;
+}
+.menu8-miniimg2{
+    position: absolute;
+    left: 10%;
+    right: 0%;
+    top: 18%;
+    bottom: 0%;
+    
+    
+    Width:18px;
+    Height:20px;
+}
+
+.menu8-minitext21{
+    position: absolute;
+    height: 24px;
+    left: 14.49%;
+    right: 70.98%;
+    top: calc(18%);
+    width: 200px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    /* identical to box height, or 138% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+.menu8-minitext22{
+    position: absolute;
+    height: 35px;
+    left: 10%;
+    right: -0.39%;
+    top: 32%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 35px;
+    /* identical to box height, or 140% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+}
+
+.menu8-minitext23{
+    position: absolute;
+    height: 65px;
+    left: 10%;
+    right: 13.33%;
+    top: 55%;
+    width: 70%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 180% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #525C60;
+       
+}
+.menu8-endbtn21{
+    position: absolute;
+    height: 28px;
+    left: 10%;
+    right: 80.59%;
+    top: calc(82%);
+    width: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;    
+    Size:20px;
+    Line-height:28px;
+}
+
+.menu8-picer21{
+    position: absolute;
+    left: 50%;
+    right: 0%;
+    top: 15%;
+    bottom: 0%;
+    background: #335B6B;    
+    Width:25px;
+Height: 25px;
+border-radius: 50%;
+}
+
