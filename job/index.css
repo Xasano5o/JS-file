@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(111, 137, 196);
+padding: 0px;
+margin: 0px ;
+}
+a{
+    text-decoration-line: none;
+}
+/* menu1-navbar1 */
+.menu-navbar{
+ background-color: rgb(38, 57, 57);
+ display: flex;  
+align-items: center;
+justify-content: space-around;
+}
+
+.menu1-navbar1{
+ display: flex;
+ align-items: center; 
+ justify-content: space-evenly; 
+ padding-top: 10px;
+}
+.navbar-1text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-a1{
+ width: 165px;
+ height: 35px;
+ background-color: rgb(163, 166, 167);
+display: flex;
+ align-items: center;
+justify-content: center;
+border-radius: 8%;
+cursor: pointer;
+text-decoration-line: none;
+}
+
+.navbar-a2{
+    width: 165px;
+    height: 35px;
+    background-color: rgb(163, 166, 167);
+   display: flex;
+    align-items: center;
+   justify-content: center;
+   border-radius: 8%;
+   cursor: pointer;
+   text-decoration-line: none;}
+   .navbar-a3{
+    width: 165px;
+    height: 35px;
+    background-color: rgb(163, 166, 167);
+   display: flex;
+    align-items: center;
+   justify-content: center;
+   border-radius: 8%;
+   cursor: pointer;
+   text-decoration-line: none;}
+   .navbar-a4{
+    width: 165px;
+    height: 35px;
+    background-color: rgb(163, 166, 167);
+   display: flex;
+    align-items: center;
+   justify-content: center;
+   border-radius: 8%;
+   cursor: pointer;
+   text-decoration-line: none;}
+
+   .navbar-a5{
+    width: 165px;
+    height: 35px;
+    background-color: rgb(163, 166, 167);
+   display: flex;
+    align-items: center;
+   justify-content: center;
+   border-radius: 8%;
+   cursor: pointer;
+   text-decoration-line: none;
+}
+
+   /* menu-2 strart */
+
+.menu-2-text1{
+    width: 100%;
+    background-color: rgb(66, 94, 133);
+    text-align: center;
+    font-size: 23px;
+
+}
+
+.menu2-text2{
+background-color: rgb(66, 94, 133);  
+width: 100%;
+text-align: center;
+font-size: 23px;
+height: 30vh;
+}
+
+.menu3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration-line: none;
+}
+.menu3-1 ul li{
+    list-style-type: none
+}
+
+.menu3-end{
+    text-align: center;
+}
+footer{
+    background-color: bisque;
+    padding-top: 20px;
+}
