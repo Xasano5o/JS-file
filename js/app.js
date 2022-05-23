@@ -1,304 +1,167 @@
-//  if elss ,  if true bo`lganda , else  flase bo`lganda ishleydi, elseif  true bo`lganda u xam ishlaydi
 
-// var age =18
-// if (age >= 18) {
-// console.log( 'sssss');
+// //Example
+// var ary = ["A", "B", "C", "D", "E"];
+
+// //length
+// console.log(ary.length); //5
+
+// //push
+// console.log(ary.push("F")); //6
+
+// //pop
+// console.log(ary.pop()); //"F"
+
+// //unshift
+// console.log(ary.unshift("F")); //6
+
+// //shift
+// console.log(ary.shift()); //"F"
+
+// //splice(insert)
+// console.log(ary.splice(3, 0, "F")); //[]
+
+// //splice(remove)
+// console.log(ary.splice(3, 1)); //["F"]
+
+// //indexOf
+// console.log(ary.indexOf("D")); //3
+
+// //lastIndexOf
+// console.log(ary.lastIndexOf("D")); //3
+
+// //join
+// console.log(ary.join(":")); //"A:B:C:D:E"
+
+// //reverse
+// console.log(ary.reverse()); //["E", "D", "C", "B", "A"]
+
+// //sort
+// console.log(ary.sort()); //["A", "B", "C", "D", "E"]
+
+// //some
+// console.log(ary.some(function(item) {
+// 	return item === "C";
+// })); //true
+
+// //every
+// console.log(ary.every(function(item) {
+// 	return item.length === 1;
+// })); //true
+
+// //forEach
+// console.log(ary.forEach(function(item) {
+// 	return item;
+// })); //undefined
+
+// //reduce
+// console.log(ary.reduce(function(prevItem, item) {
+// 	return prevItem + item;
+// })); //"ABCDE"
+
+// //reduceRight
+// console.log(ary.reduceRight(function(prevItem, item) {
+// 	return prevItem + item;
+// })); //"EDCBA"
+
+// //map
+// console.log(ary.map(function(item) {
+// 	return item + item;
+// })); //["AA", "BB", "CC", "DD", "EE"]
+
+// //filter
+// console.log(ary.filter(function(item) {
+// 	return item > "C";
+// })); //["D", "E"]
+
+// //slice
+// console.log(ary.slice(2, 4)); //["C", "D"]
+
+// //concat
+// console.log(ary.concat(["G", "H"])); //["A", "B", "C", "D", "E", "G", "H"]
+
+
+// ------------------------------------------------------------------
+
+// let mountains = ['Everest', 'Fuji', 'Nanga Parbat','h'];
+// mountains[2] = 'K2';
+
+// console.log(mountains);
+
+// let students = {
+//     name: 'Xasan',
+//     age: 20,
+//     isMarried: false
 // }
-// else {age <= 0
-// console.log('xsa' );}
 
-// trunery 2 xolatni tekshiradi undan xam ko`b tekshirse bol`adi unda chalkashib ketadi
+// const {title, key, value} = students
+// console.log(students[title]);
+// object update qilish uzindan olin
 
-//  switich 3 ta xollatda tekshiradi 1chisi true xoladda  , 2 chisi false xolladda , 3chisi default xolatni
-// 1 chisidan kegin break uzidan kegini tuxtadi break berilmasa uzindan kegin xam terminaldamn chiqarib yuboradi
-// var num = 'true';
+// let person = {
+//     firstName: 'John',
+//     lastName: 'Doe'
+// };
 
-// switch ( num) {
-//     case true :
-//     {
-//         console.log('true');
-//         break
-//     }
-//     case false : {
-//         console.log('false ');
-//     }
-//     break
-// default : {console.log( 'nether');}
+// person.firstName = 'Jane';
 
-// while loop
-// while ochishdan oldin varibil name berib tenglab olamz  oxirisida tuxtashligi uchun i++ berib qo`yamz
-// while qachonki qavs ichidagi stekmind true bulsa ichidagi stekmind ishlaydi
+// console.log(person);
 
-//  var i =0 ;
-//  while ( i < 5 ) {
-//      console.log(i) ;
-//     i = 5
-//  }
+// const user = {
+//   name: "crystal",
+//   age: 350,
+//   email: "crystal@thenetninja.co.uk",
+//   location: "berlin",
+//   blogs: ["why mac&cheese rules", "10 things to make with marmite"],
+// };
+// user.blogs='7'
+// console.log(user);
 
-// do whilr 1 chi variblega tengalab olamiz  qiymatni kegin do ichida { log } tagidan tuxtatish uchun i++ berib qo`yamz  oxurdan tepadan berib bo`lmaydi
 
-// i=0
+// var one =123
+// one='ygf'
+// var one=30
+// console.log(one);
 
-// do  { i++
-//     console.log(i);
-// }
-// while(i<=199)
+// let one =123
+// one='yfg'
+// console.log(one);
 
-// for ( let i = 0 ; i<=10; i++ )
+// const one= 'hello world'
+// one ='welcome'
+// console.log(one);
+
+
 // {
-//     console.log(i);
+//     var one ='123'
 // }
+// console.log(one);
 
-// let i =0
-// do {
-// console.log(i);
-// i++
-// }
-// while (i<=10)
 
-// let i = 0
 
-// while (i <= 10){
-//     console.log(i);
-//     i++
 
-// var age =18
-// if (age >= 18) {
-// console.log( 'sssss');
-// }
-// else {age <= 0
-// console.log('xs')
+// primative non primitiv
+// primitiv  1string  2number  3boolean 4 null 5 undifnd 6 bigInt 
+// non primativ  1arrey 2object 3 regex  
+// dtatype 1string  2number  3boolean 4 null 5 undifnd 6 bigInt 1arrey 2object 3 regex  
 
-// 1- masala faqad tuqlardagi xarflar chiqishi kere
+// string 'hello world' "hello world" `hello world`
+// one=[]
+// obkect{}
+// console.log(one);
 
-// var  one = 'ja4543883'
-// console.log( one.match(/[0-9]/g).join(''));
 
-//   var one = 'Aa122*'
-//   console.log(  typeof one);
+// let one = 'hellojhksdhjshkjhjhkskjhsfjkh,uyuy'
 
-// let sum = 0;
+// console.log(one.toUpperCase());
+// console.log(one.toLocaleLowerCase());
+// console.log(one.lastIndexOf('l'));
+// console.log(one.slice(3,5));
+// console.log(one.substring(3,5));
+// console.log(one.replace('hello','xasan'));
+// console.log(one.concat(too));
+// console.log(one.trimEnd().split());
+// console.log(one.padEnd(21,'xasan'));
 // console.log(one.length);
 
-// var str = "1112131415kkg";
 
-
-
-// var number = 12131415;
-// console.log(number.length);
-
-// console.log(sum);
-
-// sum = 0;
-// for (let i = 0; i < str.length; i++) {
-//       if (Number(str[i])) {
-//             sum += parseInt(str[i]);
-//           }
-//         }
-//         console.log(sum);
-// // console.log(typeof "1");
-
-// var str = "B1C2D3E4F5";
-// var  sum = 0
-
-// for (let i = 0; i < str.length; i++) {
-// if (Number (str [i]))
-// sum += parseInt  (str[i] )
-
-// }
-// console.log(sum);
-
-// function text(str, type) {
-//         var res = '';
-//         if (type === 'odd') {
-//             for (let i = 0; i < str.length; i = i + 2) {
-//                 res += str[i];
-//             }
-//         }
-//             if (type === "even") {
-//                 for (let i = 1; i < str.length; i = i + 2) {
-//                   res += str[i];
-//              }
-//         }
-
-//         console.log(res);
-//     }
-//     text('xasanabdurazakov', 'odd');
-
-// let id= Symbol('')
-// let one = {
-//     name : ' xasan '
-//   , age: 20,
-//   [id]:" bazi qiymat  "
-
-// }
-
-// console.log(sum);
-
-// var phone ={
-//     window: {one: 'nest'} ,
-//     tepaqismi: 'kamera',
-//     ichkiqismi: 'plata sxema'
-//    , dasturiy:  'setting'
-// }
-
-//  console.log('dasturiy' in phone);
-// masala
-
-// function one (str) {
-//     var res =''
-//     for (let i = 0; i < str.length; i++) {
-//        if (str[i].toUpperCase()===str[i]) {
-//        res+=str[i].toLowerCase();
-//     }
-//     else {  res+= str[i] .toUpperCase()}
-
-//     }
-//     console.log(res);
-
-// }
-
-// one('xxAxfc')
-
-// var one= {name: 'xasan',  students: [
-//     {infinete: 9999 , name:  'xusan' ,  too: [{ hova: 'xasan'}] } ,
-//     {infinete: 9999  , name:  'xusan'  },
-//     {infinete: 9999 ,  name: 'xusan' ,     }
-
-// ]  }
-// Object.seal (one)
-
-// one.name= 'boburjan'
-
-// push ('xasan) oxurdan qo`shib beradi beradi qiymad
-// pop () oxurdagi  berilgandagi lenght qiymatni ayrib beradi
-// unshift() boshidan qo`shib beradi qiymad
-// shift () boshidagi lenght qiymadni olib tashlab beradi
-
-// var one =new Array('dhsjfdh' ,1243234)
-// one.push('xasan') ;
-// one.pop()
-// one.unshift('xusan') ;
-// one.shift()
-// console.log( one[0]  ,one[1] );
-
-// console.log(Array.from('hchshds')); string ichidagi ma`lumotni from orqali arreyga olib olsag bo`ladi
-// console.log(   Array.of(36)); 1 ta qiymat bersag arreyga o`tqazib beradi
-
-//  sort( ) oldiga eng kichik sonlarni oladi
-// var one =[74748 ]
-// console.log(one.sort());
-
-//  sort fucrtion orqali xam(a,b) return a-b
-// var one =[32, 3, ,4,64,3,74]
-// console.log(one.sort( (a,b) => a-b ));
-
-// some i oladi  varebilga bergan qiymatimizni ichida aylantiradi  i==='27' agr 27 bergan bulsag true qaytardi yuq bulsa false bu xammasini tekshiradi agr 1tasi tu`gri chiqsa b`oldi
-// evrey i oladi varebilda bergan qiymatimizni tekshiradi agar xammasi tru bulsa chiqadi varebildagi bulmasa false chiqaradi
-
-// var one =[12, 12, 34,76 ,13 , 'xasan']
-// console.log( one.some( (i) => i===  'xasan'  )  );
-
-// var one =[87,84 ,89 ,90 ,'dah']
-
-// var filted =one.filter( (i)=>i===toString) && '';
-// console.log(filted);
-
-// filter for loop uxshaydi faqad qisqartirilgani
-// flat child parentga chiqarib beradi yaxtitlab xam beradi parametrni nechtaligi yozamiz ko`b parametr bulsa infinte berib qo`yaz cheksiz marta
-
-// var one =[72,47 ,[3] ,[74],48]
-// console.log(one.flat(Infinity));
-
-// var one =[ 757, 31,3,1,]
-
-// var maped =one .map((value,index ,arrey)=>{
-//     console.log(one);
-// })
-
-// map 3 ta  argumenti b`oladi value ,index ,arrey  map vazifasi arrey ichidagi ma`lumotlar yoyib chiqar berishlik
-
-// var one =[8,6,7]
-
-// console.log(one.reduce((prev, init)=>prev+init, 5));
-
-// var one =[28,17,11,12,11,754,5,4]
-// console.(passlog(one.sort());
-
-// function one (str) {
-//     var res =''
-//     for (let i = 0; i < str.length; i++) {
-//        if (str[i].toUpperCase()===str[i]) {
-//        res+=str[i].toLowerCase();
-//     }
-//     else {  res+= str[i] .toUpperCase()}fi
-
-// const arr = [
-//   {
-//     name: "ajsfdl",
-//     age: 17,
-//   },
-//   {
-//     name: "ewopgk",
-//     age: 18,
-//   },
-//   {
-//     name: "ajs45l",
-//     age: 19,
-//   },
-// ];
-
-// const test = arr.map((value, index, array) => value.name);
-
-// console.log(test);
- 
-// var str ='xx112'
-
-// sum=0PPPP
-// for (let i = 0; i < str.length; i++) {
-// if (Number (str [i]))
-// sum += parseInt  (str[i] )
-
-// }
-// console.log(sum);
-
-
-
-
-
-// function mergeSortdArray(a,b){
-// 	for(var i=0;i<b.length;i++){
-// 		a.push(b[i]);
-// 	}
-// 	//console.log(a);
-// for(i=0;i<a.length;i++)
-//     {
-//         for(j=i+1;j<a.length;j++)
-//         {
-//             if(a[i]>a[j])
-//             {
-//                 temp=a[i];
-//                 a[i]=a[j];
-//                 a[j]=temp;
-//             }
-//         }
-//     }
-//     return a;
-// }
-// console.log(mergeSortedArray([1,2,3,5,9],[4,6,7,8]));
-
-// var str = "B1C2D3E4F5";
-// var  sum = 0
-
-// for (let i = 0; i < str.length; i++) {
-// if (parseInt (str [i]))
-// sum += parseInt  (str[i] )
-
-// }
-// console.log(sum);
-
-// var one =[1,2,3,4,5,6,7,8,]
-// console.log(one.splice(2,4,"x"));
-var one ='673674887'
-
-console.log(eval(one));
+console.log(123);
